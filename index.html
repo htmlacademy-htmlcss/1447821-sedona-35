@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <link rel="stylesheet" href="style\style.css">
   </head>
     <body>
-      <header class="page-header">
+      <header class="page-header" data-test="header">
         <nav class="navigation">
           <div>
         <div>
@@ -16,7 +17,7 @@
         <div>
         <ul class="navigation-list">
           <li class="navigation-item">
-            <a href="index.html" >Главная</a>
+            <a class="navigation-link" href="index.html" >Главная</a>
           </li>
         </div>
         <div>
@@ -57,132 +58,121 @@
       </nav>
       </header>
 
-      <main>
-        <section>
-          <img class="sedona" src="image\index-background.jpg" width="1200" height="485" alt="место для туристов,где можно съездить в горы">
+      <main class="index-main">
+          <section class="cover">
         <div>
           <div>
-            <img class="welcome" src="image\welcome.svg" width="187.7" height="44.7" alt="Велком">
+            <img class="welcome" src="image/welcome.svg" width="187.7" height="44.7" alt="Велком">
           </div>
-          <div><img class="to-the-gorgous" src="image\tothe.svg" width="256" height="28.78" alt="сайт"></div>
-          <div><img class="sedona-becaus" src="image\sedonabecause.svg" width="456.7" height="212.77" alt="седона"></div>
+          <div><img class="to-the-gorgous" src="image/tothe.svg" width="256" height="28.78" alt="сайт"></div>
+          <div><img class="sedona-becaus" src="image/sedonabecause.svg" width="456.7" height="212.77" alt="седона"></div>
         </div>
         </div>
         <div>
-          <img src="image\section1.svg" width="1200" height="57">
+          <img class="section1" src="image/section1.svg" width="1200" height="57">
         </div>
         </section>
-        <section>
+        <section class="sedona-gorodok">
         <div>
-          <h2>СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,
+          <h2 class="sedona-arizona">СЕДОНА - НЕБОЛЬШОЙ ГОРОДОК В АРИЗОНЕ,
             <br>
             заслуживающий большего!
           </h2>
-          <p>Расмотрим причины, по которым Седона круче, чем гранд-Каньон!</p>
+        </div>
+        <div>
+          <p class="sedona-grand">Расмотрим причины, по которым Седона круче, чем гранд-Каньон!</p>
           </div>
         </section>
         <section>
-        <div>
+        <div class="blue-color-hardness">
           <div>
-          <div class="blue color hardness">
-          <div>
-          <h3>Настоящий городок</h3>
+          <div >
+          <h3 class="a-real-town">Настоящий городок</h3>
+          </div>
         </div>
           <div></div>
-          <div><p>Седона - не атракцион для туристов, там течет своя жизнь</p></div>
+          <div><p class="tourist-attraction">Седона — не аттракцион для туристов, там течёт своя жизнь</p></div>
         </div>
-      </div>
+        </div>
           <div>
             <img src="image\main\America.jpg" width="800" height="384" alt="">
           </div>
         </div>
         <div>
           <div class="solid">
-            <div><h3>Небольшая площадь</h3></div>
+            <div><h3 class="advantages-title">Небольшая площадь</h3></div>
             <div></div>
-            <div><p>Все достопримечательности находятся очень близко</p></div>
+            <div><p class="square">Все достопримечательности находятся очень близко</p></div>
           </div>
-          <div>
-            <div><h3>Красивая дорога</h3></div>
+          <div class="doroga">
+            <div><h3 class="advantages-title">Красивая дорога</h3></div>
             <div></div>
-            <div><p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p></div>
+            <div><p class="square">Ехать в Седону из Лас-Вегаса совсем не скучно!</p></div>
           </div>
-          <div>
-            <div><h3>МАЛО ТУРИСТОВ</h3></div>
+          <div class="solid">
+            <div><h3 class="advantages-title">МАЛО ТУРИСТОВ</h3></div>
             <div></div>
-            <div><p>Большинство едет в Гранд Каньон и толпится там</p></div>
+            <div><p class="square">Большинство едет в Гранд Каньон и толпится там</p></div>
           </div>
         </div>
         <div>
-          <div><img scr="image\gora.jpg" width="800" height="384" alt="Гора"></div>
-        <div class="blue color hardness">
           <div>
-          <h2>
-            ТАМ ЕСТЬ
-            <br>
-            МОСТ ДЬЯВОЛА</h2>
+            <img src="D:\sedona\image\main\gora.jpg" width="800" height="384" alt="Гора">
+          </div>
+        <div class="blue-color-hardness">
+          <div>
+          <h3 class="a-real-town">
+            Там есть<br>мост дьявола</h3>
           </div>
             <div></div>
-          <div><p>Да,по нему можно пройти!Если вы осмелитесь, разумеется</p></div>
+          <div><p class="tourist-attraction">Да,по нему можно пройти!Если вы осмелитесь, разумеется</p></div>
         </div>
       </div>
     </section>
       <div>
         <div>
           <div><img class="icon-feature-home" src="image\svg\lodge.svg"  width="75" height="72" alt="домик"></div>
-          <div><h2>Жильё</h2></div>
-          <div><p>Рекомендуем пожить в настоящем мотеле,все как в кино!</p></div>
+          <div><h3 class="advantages-title">Жильё</h3></div>
+          <div><p class="square">Рекомендуем пожить в настоящем мотеле,все как в кино!</p></div>
         </div>
-        <div>
+        <div class="interested">
           <div><img class="icon-feature-food" src="image\svg\food.svg"  width="74" height="70" alt="Еда"></div>
-          <h2>Еда</h2>
-          <p>Всегда заказывайте топовый фирменый бургер, вы не разочируйтесь!</p>
+          <h3 class="advantages-title">Еда</h3>
+          <p class="square">Всегда заказывайте топовый фирменый бургер, вы не разочируйтесь!</p>
         </div>
         <div>
           <div><img class="icon-feature-souvenir" src="image\svg\gift.svg"  width="64" height="76" alt="Подарок"></div>
-          <h2>СУВЕНИРЫ</h2>
-          <p>Не только китайского, но и настоящего местного производства!</p>
+          <h3 class="advantages-title">СУВЕНИРЫ</h3>
+          <p class="square">Не только китайского, но и настоящего местного производства!</p>
         </div>
         </div>
       <section class="interested">
       <div class="promo-title">Заинтересовались?</div>
-      <p>Укажите предполагаемые даты поездки,
+      <p class="trip">Укажите предполагаемые даты поездки,
         <br>
         и мы покажем вам лучшие предложения гостиниц в Седоне
       </p>
     </div>
     <div>
-      <div>
-        <h2>ПОИСК ГОСТИНИЦЫ В СЕДОНЫ</h2>
+      <div class="Sedona-Hotel">
+        <h2 class="Sedona-Hotel1">ПОИСК ГОСТИНИЦЫ В СЕДОНЫ</h2>
       </div>
     </section>
 
-    <div>
-      <form>
-        <label for="checkin">Дата заезда:</label>
-        <input type="date" name="checkin" id="checkin" value="27 Апреля 2020">
-        <label for="checkout">Дата выезда:</label>
-        <input type="date" name="checkout" id="checkout" value="1 сентября 2023">
-        <input type="number" name="grown-ups" min="1" id="grown-ups" value="2">
-        <label for="children">Дети:</label>
-        <input type="number" name="children" id="children" value="2">
-        <input class="search-btn btn" type="submit" id="search-btn" name="search-btn" value="Найти">
-      </form>
-    </div>
     </div>
     <section class="newsletter">
     <div>
       <div>
         <h2 class="page-footer-title">Подпишись на рассылку</h2>
       </div>
-      <div><p>Только полезная информация и никакого спама, честное бойскаутское!</p></div>
+      <div><p class="informa">Только полезная информация и никакого спама, честное бойскаутское!</p></div>
       <div>
       <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-        <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
+        <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
       </div>
         <div>
-          <button class="button newsletter-button" type="submit">
-          <span class="visually-hidden">ПОДПИСАТЬСЯ</span>
+          <button class="button-newsletter-button" type="submit">
+          <span class="visually-hidden" data-test="subscribe">ПОДПИСАТЬСЯ</span>
           </button>
           </div>
           </div>
@@ -192,7 +182,7 @@
     </div>
   </section>
   </main>
-        <footer>
+        <footer class="page-footer" data-test="footer">
           <section>
           <div>
             <img class="vk"src="image\vk.svg" width="24" height="14" alt="Вконтакте">
@@ -204,7 +194,7 @@
           </div>
           <div>
               <address>
-              <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+              <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
               </address>
             </div>
           <div>

@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy:Седона</title>
+    <link rel="stylesheet" href="style\style.css">
   </head>
     <body>
-      <div>
-        <header class="page-header">
+        <header class="page-header" data-test="header">
           <nav class="navigation">
             <div>
           <div>
@@ -17,7 +17,7 @@
           <div>
           <ul class="navigation-list">
             <li class="navigation-item">
-              <a href="index.html" >Главная</a>
+              <a class="navigation-link" href="index.html" >Главная</a>
             </li>
           </div>
           <div>
@@ -59,12 +59,12 @@
         </header>
 
       <main>
-        <section>
+        <section class="newsletterree">
         <div class="cover-inner clearfix">
         <form>
-          <div class="checkboxes">
+          <div>
             <div>
-              <h1>Гостиницы Седоны</h1>
+              <h1 class="gost-sed">Гостиницы Седоны</h1>
             </div>
             <div>
               <ul>
@@ -112,13 +112,11 @@
         </div>
       </section>
       </form>
-    <section>
-      <div class="sorting">
-        <span>Найдено: 38</span>
+    <section class="sorting">
+      <div>
+        <span class="Hotels-found">Найдено гостиниц: 38</span>
         <select class="select-control" aria-label="Сортировка">
-          <option value="popular">Сначала популярное</option>
           <option value="cheap">Сначала дешёвое</option>
-          <option value="expensive">Сначала дорогое</option>
         </select>
         <a href="#" class="button button-light">
           <span class="visually-hidden">Показать список</span>
@@ -134,11 +132,11 @@
       <div>
         <div><img class="hotel-1" src="image\hotel-1.jpg" width="300" height="212" alt="Звезды"></div>
         <div class="ihformation"><h2>Amara Resort & Spa</h2></div>
-        <span>Гостиница</span>
-        <span>от 4000р</span>
+        <span class="gosr-rub">Гостиница</span>
+        <span class="gosr-rub">от 4000р</span>
         <div>
-          <button class="btn booking">подробнее</button>
-          <button class="btn booki">в избранное</button>
+          <button class="btn-booking">подробнее</button>
+          <button class="btn-booki">в избранное</button>
         </div>
       </div>
       <div class="star-rating">
@@ -155,11 +153,11 @@
       <div>
         <div><img class="hotel-2" src="image\hotel-2.jpg" width="300" height="212" alt="радуга над городом"></div>
         <div class="ihformation"><h2>Villas at Poco Diablo</h2></div>
-        <span>Гостиница</span>
-        <span>от 5000р</span>
+        <span class="gosr-rub">Гостиница</span>
+        <span class="gosr-rub">от 5000р</span>
         <div>
-          <button class="btn booking">подробнее</button>
-          <button class="btn booki-green">в избранном</button>
+          <button class="btn-booking">подробнее</button>
+          <button class="btn-booki-green">в избранном</button>
         </div>
       </div>
       <div class="star-rating">
@@ -176,11 +174,11 @@
       <div>
         <div><img class="hotel-3" src="image\hotel-3.jpg" width="300" height="212" alt="Гора над небом"></div>
         <div class="ihformation"><h2>Desert Quail Inn</h2></div>
-        <span>Гостиница</span>
-        <span>от 2500р</span>
+        <span class="gosr-rub">Гостиница</span>
+        <span class="gosr-rub">от 2500р</span>
         <div>
-          <button class="btn booking">подробнее</button>
-          <button class="btn booki">в избранное</button>
+          <button class="btn-booking">подробнее</button>
+          <button class="btn-booki">в избранное</button>
         </div>
       </div>
       <div class="star-rating">
@@ -196,11 +194,11 @@
       <div>
         <div><img class="hotel-4" src="image\hotel-4.jpg" width="300" height="212" alt="Звезды"></div>
         <div class="ihformation"><h2>GreenTree Inn</h2></div>
-        <span>Гостиница</span>
-        <span>от 1500р</span>
+        <span class="gosr-rub">Гостиница</span>
+        <span class="gosr-rub">от 1500р</span>
         <div>
-          <button class="btn booking">подробнее</button>
-          <button class="btn booki">в избранное</button>
+          <button class="btn-booking">подробнее</button>
+          <button class="btn-booki">в избранное</button>
         </div>
       </div>
       <div class="star-rating">
@@ -223,6 +221,24 @@
         </div>
       </div>
       </section>
+      <section class="newsletter-to">
+        <div>
+          <div>
+            <h2 class="page-footer-title">Подпишись на рассылку</h2>
+          </div>
+          <div><p class="informa">Только полезная информация и никакого спама, честное бойскаутское!</p></div>
+          <div>
+          <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
+            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
+          </div>
+            <div>
+              <button class="button-newsletter-button" type="submit">
+              <span class="visually-hidden" data-test="subscribe">ПОДПИСАТЬСЯ</span>
+              </button>
+              </div>
+              </div>
+            </section>
+          </form>
         </main>
 
         <footer>
@@ -237,7 +253,7 @@
           </div>
           <div>
               <address>
-              <a href="tel:+78128121212">+7 (812) 812-12-12</a>
+              <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
               </address>
             </div>
           <div>
@@ -246,6 +262,5 @@
         </div>
       </section>
     </footer>
-      </div>
     </body>
 </html>
