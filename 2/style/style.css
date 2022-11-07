@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "PT-Sans";
+  font-style: normal;
+  font-weight: 400;
+
+  src: url("sedona\fonts\ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "PT-Sans";
+  font-style: normal;
+  font-weight: 700;
+
+  src: url("sedona\fonts\ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #242424;
+  background-color: #F2F2F2;;
+  text-align: center;
+}
+
+.page-header {
+  color:#000000;
+  background-color: #FFFFFF;
+}
+
+
+.navigation-link{
+font-family: PT sans; sans-serif;
+color:#000;
+font-size: 20px;
+line-height: 24px;
+font-weight: 700;
+text-decoration:none;
+text-transform: uppercase;
+background-color: #fff;
+}
+
+.cover {
+  background-image: url("../image/index-background.jpg");
+  color:#000;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  height: 730px ;
+  background-position: absolute;
+  background-color: #fff;
+}
+
+
+.sedona-gorodok {
+  color:#000;
+  background-color: #fff;
+}
+.sedona-arizona{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.sedona-grand{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+
+.blue-color-hardness{
+background-color: #82B3D3;
+color: #fff;
+}
+
+.a-real-town{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.tourist-attraction{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.solid {
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.doroga{
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title{
+  color:#000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+
+.square{
+  color:#000;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+.promo-title{
+  color:#000;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+
+.trip{
+  color: #000;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.interested{
+  background-color: #FFFFFF;
+}
+.Sedona-Hotel{
+  border-radius: 4px;
+  color:#fff;
+  background-color: #756157;
+}
+
+.Sedona-Hotel1{
+font-size: 20px;
+line-height: 36xp;
+font-weight: 700;
+}
+
+.page-footer{
+background-color: #FFFFFF;
+}
+.footer-contacts-address-phone{
+font-size: 40px;
+line-height: 40px;
+font-weight: 400;
+color: #000;
+}
+
+.newsletter{
+  background-image: url("../image/main/6909b8e9d883604a1176f6d0f6f27a75.jfif");
+  background-size: 100% auto;
+  height: 400px ;
+}
+.page-footer-title{
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.informa{
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.visually-hidden{
+font-size: 20px;
+line-height: 36px;
+font-weight: 700;
+color: #FFFFFF;
+}
+.button-newsletter-button{
+  background-color: #82B3D3;
+
+}
+.field{
+  background-color: #F2F2F2;
+  width: 452px;
+  height: 52px;
+}
+
+.newsletterree{
+  background-image: url("../image/main/6909b8e9d883604a1176f6d0f6f27a75.jfif");
+  background-size: 100% auto;
+  height: 412px;
+}
+.gost-sed{
+  font-weight: 700;
+  color: #fff;
+  line-height: 78px;
+  font-size: 60px;
+}
+.checkboxes{
+  color:#FFFFFF;
+}
+.form-btn{
+  color: #fff;
+  background-color: #82B3D3;
+}
+.form-bta{
+  color: #fff;
+}
+.sorting{
+  background-color: #FFFFFF;
+}
+.Hotels-found{
+  color: #000;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+}
+.select-control{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+}
+.ihformation{
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+}
+.btn-booking{
+  background-color: #756157;
+  color:#FFFFFF;
+  width: 140px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.btn-booki{
+  background-color: #82B3D3;
+  color:#FFFFFF;
+  width: 140px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.btn-booki-green{
+  background-color: #7DB54F;
+  color: #FFFFFF;
+  width: 140px;
+  height: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
+.rating{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+.gosr-rub{
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color:#000;
+}
+.newsletter-to{
+  background-color: #FFFFFF;
+
+}
