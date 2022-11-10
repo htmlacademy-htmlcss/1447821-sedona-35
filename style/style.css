@@ -33,7 +33,7 @@ body {
 
 
 .navigation-link{
-font-family: PT sans; sans-serif;
+font-family: "PT sans", sans-serif;
 color:#000;
 font-size: 20px;
 line-height: 24px;
@@ -126,26 +126,29 @@ color: #fff;
 .interested{
   background-color: #FFFFFF;
 }
+
 .Sedona-Hotel{
   border-radius: 4px;
   color:#fff;
   background-color: #756157;
 }
 
-.Sedona-Hotel1{
-font-size: 20px;
-line-height: 36xp;
-font-weight: 700;
+.interested-link{
+  color: #FFFFFF;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
 }
 
 .page-footer{
-background-color: #FFFFFF;
+  background-color: #FFFFFF;
 }
+
 .footer-contacts-address-phone{
-font-size: 40px;
-line-height: 40px;
-font-weight: 400;
-color: #000;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #000;
 }
 
 .newsletter{
@@ -168,6 +171,7 @@ color: #000;
 font-size: 20px;
 line-height: 36px;
 font-weight: 700;
+background-color: #82B3D3;
 color: #FFFFFF;
 }
 .button-newsletter-button{
@@ -261,4 +265,10 @@ color: #FFFFFF;
 .newsletter-to{
   background-color: #FFFFFF;
 
+}
+.COME-HERE{
+  background-color: #756157;
+}
+.come-he{
+  color: #FFFFFF;
 }
