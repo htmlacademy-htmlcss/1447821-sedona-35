@@ -4,80 +4,61 @@
     <meta charset="utf-8">
     <title>HTML Academy:Седона</title>
     <link rel="stylesheet" href="style\style.css">
+    <link rel="stylesheet" href="portfolio-outline.css">
     <base href="https://htmlacademy-htmlcss.github.io/1447821-sedona-35/2/">
 </head>
     <body>
-        <header class="page-header" data-test="header">
-          <nav class="navigation">
-            <div>
-          <div>
-            <a href="#">
-              <img class="logo" src="image\header\logo.png" alt="Home page" width="138" height="64">
-            </a>
-          </div>
-          <div>
+
+      <header class="page-header" data-test="header">
+        <nav class="navigation">
+          <a href="#">
+            <img class="logo" src="image/header/logo.png" alt="Home page" width="138" height="64">
+          </a>
           <ul class="navigation-list">
             <li class="navigation-item">
               <a class="navigation-link" href="index.html" >Главная</a>
             </li>
-          </div>
-          <div>
             <li class="navigation-item">
               <a class="navigation-link" href="#">О Седоне</a>
             </li>
-          </div>
-          <div>
             <li class="navigation-item">
               <a class="navigation-link" href="catalog.html">Гостиницы</a>
             </li>
           </ul>
-        </div>
-        </div>
-        </div>
-          <div>
-            <div>
+        </nav>
+        <div>
           <ul class="navigation-list navigation-user">
             <li class="navigation-item">
               <a href="#">
-              <img src="image\header\search.jpg" width="18" height="18" alt="Поиск"></a>
+                <img src="image/header/search.jpg" width="18" height="18" alt="Поиск">
+              </a>
             </li>
-          </div>
-          <div>
             <li class="navigation-item">
               <a href="#">
-              <img class="publishing" src="image\header\publishing.jpg" width="18" height="17" alt="publishing">
-              <img class="Rectangle" src="image\header\Rectangle 61.png" width="20" height="20" alt="Rectangle">
-              <img class="12" src="\sedona\image\header\12.svg" width="20" height="20" alt="12">
-            </a>
+                <img class="publishing" src="image\header\publishing.jpg" width="18" height="17" alt="publishing">
+                <img class="Rectangle" src="image/header/Rectangle.png" width="20" height="20" alt="Rectangle">
+                <p>12</p>
+              </a>
             </li>
-            <li>
-              <a href="#">ХОЧУ СЮДА!</a>
+            <li class="COME-HERE">
+              <a class="come-he" href="#">ХОЧУ СЮДА!</a>
             </li>
           </ul>
         </div>
-          </div>
-        </nav>
-        </header>
+      </header>
 
       <main>
         <section class="newsletterree">
-        <div class="cover-inner clearfix">
+          <h1 class="gost-sed">Гостиницы Седоны</h1>
+          <ul>
+            <li>
+              <img src="../sedona/image/catalog/domik.png">
+            </li>
+            <li>
+              <img src="../sedona/image/catalog/arrow.png">
+            </li>
+          </ul>
         <form>
-          <div>
-            <div>
-              <h1 class="gost-sed">Гостиницы Седоны</h1>
-            </div>
-            <div>
-              <ul>
-                <li>
-                  <img src="../image/catalog/dom.svg">
-                </li>
-                <li>
-                  <img src="../image/catalog/arrow.svg">
-                </li>
-              </ul>
-            </div>
-
           <fieldset class="checkboxes">
             <legend>Инфраструктура:</legend>
             <input id="pool" type="checkbox" checked>
@@ -110,102 +91,89 @@
           <input class="form-btn" type="reset" id="form-btn" name="form-btn" value="Применить">
           <input class="form-bta" type="reset" id="form-btn" name="form-btn" value="Сбросить">
           </fieldset>
-        </div>
+        </form>
       </section>
-      </form>
-    <section class="sorting">
-      <div>
+
+      <section class="sorting">
         <span class="Hotels-found">Найдено гостиниц: 38</span>
-        <select class="select-control" aria-label="Сортировка">
-          <option value="cheap">Сначала дешёвое</option>
-        </select>
-        <img src="D:\sedona\image\catalog\blok1.png">
-        <img src="D:\sedona\image\catalog\blok2.png">
-        <img src="D:\sedona\image\catalog\blok3.png">
+          <select class="select-control" aria-label="Сортировка">
+            <option value="cheap">Сначала дешёвое</option>
+          </select>
+          <img src="image/catalog/blok1.png">
+          <img src="image/catalog/blok2.png">
+          <img src="image/catalog/blok3.png">
         </div>
-      </div>
-      <div>
-        <div><img class="hotel-1" src="image\hotel-1.jpg" width="300" height="212" alt="Звезды"></div>
-        <div class="ihformation"><h2>Amara Resort & Spa</h2></div>
+        <div>
+        <img class="hotel-1" src="image\hotel-1.jpg" width="300" height="212" alt="Звезды">
+        <h2 class="ihformation">Amara Resort & Spa</h2>
         <span class="gosr-rub">Гостиница</span>
         <span class="gosr-rub">от 4000р</span>
         <div>
           <button class="btn-booking">подробнее</button>
           <button class="btn-booki">в избранное</button>
         </div>
-      </div>
-      <div class="star-rating">
-        <div>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
+
+        <div class="star-rating">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
         </div>
         <div class="rating">
           Рейтинг: 8,5
         </div>
-      </div>
-      <div>
-        <div><img class="hotel-2" src="image\hotel-2.jpg" width="300" height="212" alt="радуга над городом"></div>
-        <div class="ihformation"><h2>Villas at Poco Diablo</h2></div>
-        <span class="gosr-rub">Гостиница</span>
-        <span class="gosr-rub">от 5000р</span>
+
+          <img class="hotel-2" src="image\hotel-2.jpg" width="300" height="212" alt="радуга над городом">
+          <h2 class="ihformation">Villas at Poco Diablo</h2>
+          <span class="gosr-rub">Гостиница</span>
+          <span class="gosr-rub">от 5000р</span>
         <div>
           <button class="btn-booking">подробнее</button>
           <button class="btn-booki-green">в избранном</button>
         </div>
-      </div>
-      <div class="star-rating">
-        <div>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
+        <div class="star-rating">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
         </div>
         <div class="rating">
           Рейтинг: 9,2
         </div>
-      </div>
-      <div>
-        <div><img class="hotel-3" src="image\hotel-3.jpg" width="300" height="212" alt="Гора над небом"></div>
-        <div class="ihformation"><h2>Desert Quail Inn</h2></div>
-        <span class="gosr-rub">Гостиница</span>
-        <span class="gosr-rub">от 2500р</span>
+
+          <img class="hotel-3" src="image\hotel-3.jpg" width="300" height="212" alt="Гора над небом">
+          <h2 class="ihformation">Desert Quail Inn</h2>
+          <span class="gosr-rub">Гостиница</span>
+          <span class="gosr-rub">от 2500р</span>
         <div>
           <button class="btn-booking">подробнее</button>
           <button class="btn-booki">в избранное</button>
         </div>
-      </div>
-      <div class="star-rating">
-        <div>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
+        <div class="star-rating">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
         </div>
         <div class="rating">
           Рейтинг: 6,5
         </div>
-      </div>
-      <div>
-        <div><img class="hotel-4" src="image\hotel-4.jpg" width="300" height="212" alt="Звезды"></div>
-        <div class="ihformation"><h2>GreenTree Inn</h2></div>
+
+        <img class="hotel-4" src="image/hotel-4.jpg" width="300" height="212" alt="Звезды">
+        <h2 class="ihformation">GreenTree Inn</h2>
         <span class="gosr-rub">Гостиница</span>
         <span class="gosr-rub">от 1500р</span>
         <div>
           <button class="btn-booking">подробнее</button>
           <button class="btn-booki">в избранное</button>
         </div>
-      </div>
-      <div class="star-rating">
-        <div>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
-          <span class="star"><img src="D:\sedona\image\catalog\Vector (7).png"></span>
+        <div class="star-rating">
+          <img src="../sedona/image/catalog/asterisk.png">
+          <img src="../sedona/image/catalog/asterisk.png">
         </div>
         <div class="rating">
           Рейтинг: 5,0
         </div>
-      </div>
-      <div>
+
         <div>
           <a href="#">1</a>
           <a href="#">2</a>
@@ -214,48 +182,40 @@
           <a href="#">...</a>
           <a href="#">10</a>
         </div>
-      </div>
       </section>
+
       <section class="newsletter-to">
-        <div>
-          <div>
-            <h2 class="page-footer-title">Подпишись на рассылку</h2>
-          </div>
-          <div><p class="informa">Только полезная информация и никакого спама, честное бойскаутское!</p></div>
-          <div>
+        <h2 class="page-footer-title">Подпишись на рассылку</h2>
+          <p class="informa">Только полезная информация и никакого спама, честное бойскаутское!</p>
           <form class="newsletter-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field"  placeholder="Ваш e-mail" type="email" name="newsletter-email" id="newsletter-email" required>
-          </div>
-            <div>
+            <input class="field" placeholder="Ваш e-mail" type="email" name="newsletter-email" required />
               <button class="button-newsletter-button" type="submit">
               <span class="visually-hidden" data-test="subscribe">ПОДПИСАТЬСЯ</span>
               </button>
-              </div>
-              </div>
-            </section>
           </form>
+      </section>
         </main>
 
-        <footer>
-          <section>
-          <div>
-            <img class="vk"src="image\vk.svg" width="24" height="14" alt="Вконтакте">
-            <a href="https://vk.com/"></a>
-            <img class="telegram"src="image\telegram.svg" width="18" height="15.1" alt="Телеграм">
-            <a href="https://web.telegram.org/"></a>
-            <img class="youtube" src="image\youtube.svg" width="22" height="17" alt="Ютюб">
-            <a href="https://www.youtube.com/"></a>
-          </div>
-          <div>
-              <address>
-              <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
-              </address>
-            </div>
-          <div>
-            <img src="D:\sedona\image\footer\HTML-Academy.svg">
-          </div>
-        </div>
-      </section>
-    </footer>
+        <footer class="page-footer" data-test="footer">
+          <ul class="social-media">
+            <li>
+              <a href="https://vk.com/">
+                <img class="vk"src="image\vk.svg" width="24" height="14" alt="Вконтакте">
+              </a>
+            </li>
+            <li>
+              <a href="https://web.telegram.org/">
+              <img class="telegram"src="image\telegram.svg" width="18" height="15.1" alt="Телеграм">
+            </a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com/">
+              <img class="youtube" src="image\youtube.svg" width="22" height="17" alt="Ютюб">
+              </a>
+            </li>
+          </ul>
+          <a class="footer-contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
+          <img src="\sedona\image\footer\HTML-Academy.svg">
+        </footer>
     </body>
 </html>
